@@ -1,11 +1,8 @@
-<body>
+<template name="layout">
   <div>
     {{> navbar}}
   </div>
-  <div class="row">
-    {{> hero}}
-  </div>
-  <div class="row">
-    {{> values}}
-  </div>
-</body>
+
+  {{> yield}}
+
+</template>
